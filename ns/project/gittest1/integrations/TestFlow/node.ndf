@@ -45,8 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="lastModifiedBy">y509486</value>
-    <value name="lastModifiedDate">1724925210495</value>
+    <value name="lastModifiedBy">testuser</value>
+    <value name="lastModifiedDate">1724925333565</value>
     <value name="displayName">TestFlow</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -91,6 +91,7 @@
       <record name="/2" javaclass="com.wm.util.Values">
         <value name="itemType">ALL</value>
         <value name="name">NEW</value>
+        <value name="nodePathForDebug">2</value>
       </record>
     </record>
   </record>
