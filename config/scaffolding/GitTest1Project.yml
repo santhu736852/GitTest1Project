@@ -8,15 +8,11 @@ packages:
   gitUsername: santhu736852
   gitBranch: main
 services:
-- serviceName: project.gittest1.integrations:TestFlow
+- serviceName: project.gittest1.integrations:e1
   packages:
   - name: GitTest1Project
     version: "1.0"
-- serviceName: pub.math:addInts
+- serviceName: pub.date:calculateDateDifference
   packages:
   - name: WmPublic
-    version: 11.1.0.0.1136
-- serviceName: pub.date:getCurrentDate
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.1136
+    version: 11.1.0.0.1973
